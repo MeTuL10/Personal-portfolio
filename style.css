@@ -42,10 +42,21 @@ header{
     align-items: center;
     z-index: 100;
 }
+
 .about{
     padding:10rem 9%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: justify;
 }
+.navtitles{
+    text-align: center;
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 0 0 2rem var(--main-color);
+    border-radius: 4rem;
+    font-size: 4rem;
+}
+
 .portlogo{
     font-size: 3rem;
     color: var(--main-color);
@@ -62,18 +73,21 @@ header{
     color:var(--text-color);
     font-size: 2rem;
 }
+
+
+
 #metul{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-   /* animation: 
-      typing 3.5s steps(40, end);*/
+    /* animation:  */
+      /* typing 3.5s steps(40, end); */
     color:var(--main-color);
     font-size: 4rem;
-    /*margin-right: 72%;*/
+    margin-right: 72%;
 }
-/*(   The typing effect 
+/* (   The typing effect 
   @keyframes typing {
     from { width: 0; 
         color:#ffffff}
@@ -105,10 +119,25 @@ header{
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 1rem 1rem 1rem 0;
+    margin: 2rem 2rem 2rem 0;
 }
 .social a:hover{
     background: var(--main-color);
     color: var(--text-color);
-    box-shadow: 0 0 1rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: .5s
+}
+.resume{
+    color: var(--main-color);
+    display: inline-block;
+    background: transparent;
+    padding: 1rem 1rem;
+    border-radius: 4rem;
+    box-shadow: 0 0 0.5rem var(--main-color);
+}
+.resume:hover{
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: .5s;
 }
