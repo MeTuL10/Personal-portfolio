@@ -43,20 +43,6 @@ header{
     z-index: 100;
 }
 
-.about{
-    padding:10rem 9%;
-    font-size: 1.5rem;
-    text-align: justify;
-}
-.navtitles{
-    text-align: center;
-    background: var(--main-color);
-    color: var(--text-color);
-    box-shadow: 0 0 2rem var(--main-color);
-    border-radius: 4rem;
-    font-size: 4rem;
-}
-
 .portlogo{
     font-size: 3rem;
     color: var(--main-color);
@@ -74,8 +60,20 @@ header{
     font-size: 2rem;
 }
 
-
-
+/* --------------------------ABOUT------------------------------------------- */
+.navtitles{
+    text-align: center;
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 0 0 2rem var(--main-color);
+    border-radius: 4rem;
+    font-size: 4rem;
+}
+.about{
+    padding:10rem 9%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
 #metul{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -85,7 +83,7 @@ header{
       /* typing 3.5s steps(40, end); */
     color:var(--main-color);
     font-size: 4rem;
-    margin-right: 72%;
+    /* margin-right: 72%; */
 }
 /* (   The typing effect 
   @keyframes typing {
@@ -140,4 +138,73 @@ header{
     color: var(--text-color);
     box-shadow: 0 0 1rem var(--main-color);
     transition: .5s;
+}
+
+/* -------------------------PROJECTS---------------------------- */
+.Projects{
+    padding:10rem 9%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.project-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem 5rem 5rem 5rems;
+}
+.project-imgs{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+.project-imgs:hover{
+    transform: scale(1.1);
+}
+.project-container .project-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    overflow: hidden;
+    display: flex;
+}
+.project-box .project-info{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,.1),var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column; 
+     text-align: justify;
+     padding: 0 4rem; 
+     transform: translateY(100%);
+     transition: 0.5s ease;
+}
+.project-box:hover .project-info{
+    transform: translateY(0);
+}
+.project-info h4{
+    font-size: 2.5rem;
+}
+.project-info p{
+    font-size: 1.6rem;
+    margin: 0.3rem 0 1rem;
+}
+.project-info a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+.project-info a p{
+    font-size: 3rem;
+    color: var(--second-bg-color);
 }
