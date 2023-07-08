@@ -182,18 +182,18 @@ header{
      flex-direction: column; 
      text-align: justify;
      padding: 0 4rem; 
-     transform: translateY(100%);
+     transform: translateY(120%);
      transition: 0.5s ease;
 }
 .project-box:hover .project-info{
     transform: translateY(0);
 }
 .project-info h4{
-    font-size: 2.5rem;
+    font-size: 2vw;
     padding-bottom: 2rem;
 }
 .project-info p{
-    font-size: 1.6rem;
+    font-size: 1.6vw;
     margin: 0.3rem 0 1rem;
 }
 .project-info a{
@@ -206,9 +206,75 @@ header{
     color: var(--text-color);
     box-shadow: 0 0 1rem var(--main-color);
     border-radius: 50%;
-    font-size: 4REM;
+    font-size: 4vw;
 }
 /* .project-info a p{
     font-size: 3rem;
     color: var(--second-bg-color);
 } */
+
+
+/* ----------------------------------------ARTWORKS-------------------------------------------------------------------- */
+.Artworks{
+    padding:10rem 9%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.art-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem 2rem 5rem 2rem;
+}
+.art-imgs{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+.art-imgs:hover{
+    transform: scale(1.1);
+}
+.art-container .art-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    overflow: hidden;
+    display: flex;
+}
+.art-box .art-info{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,.1),var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column; 
+     text-align: justify;
+     padding: 0 4rem; 
+     transform: translateY(100%);
+     transition: 0.5s ease;
+}
+.art-box:hover .art-info{
+    transform: translateY(0);
+}
+.art-info h4{
+    font-size: 2vw;
+    padding-bottom: 2rem;
+}
+.art-info a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    border-radius: 50%;
+    font-size: 4vw;
+}
