@@ -150,8 +150,8 @@ header{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 5rem;
-    padding: 5rem 2rem 5rem 2rem;
+    gap: 5vw;
+    padding: 5vw 2vw 5vw 2vw;
 }
 .project-imgs{
     width: 100%;
@@ -164,7 +164,7 @@ header{
 }
 .project-container .project-box{
     position: relative;
-    border-radius: 2rem;
+    border-radius: 2vw;
     box-shadow: 0 0 1rem var(--main-color);
     overflow: hidden;
     display: flex;
@@ -177,25 +177,25 @@ header{
     height:100%;
     background: linear-gradient(rgba(0,0,0,.1),var(--main-color));
     display: flex;
-    justify-content: center;
+    justify-content:center; 
     align-items: center;
-     flex-direction: column; 
-     text-align: justify;
-     padding: 0 4rem; 
-     transform: translateY(120%);
-     transition: 0.5s ease;
+    flex-direction: column; 
+    text-align: justify;
+    padding: 0 4vw; 
+    transform: translateY(120%);
+    transition: 0.5s ease;
 }
 .project-box:hover .project-info{
     transform: translateY(0);
 }
 .project-info h4{
     font-size: 2vw;
-    padding-bottom: 2rem;
+    padding-bottom: 2vw;
     text-align: center;
 }
 .project-info p{
     font-size: 1.6vw;
-    margin: 0.3rem 0 1rem;
+    margin: 0.3vw 0 1vw;
 }
 .project-info a{
     display: inline-flex;
@@ -217,7 +217,7 @@ header{
 
 /* ----------------------------------------ARTWORKS-------------------------------------------------------------------- */
 .Artworks{
-    padding:10rem 9%;
+    padding:10vw 9%;
     font-size: 1.5rem;
     text-align: justify;
 }
@@ -225,7 +225,7 @@ header{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
-    gap: 5rem;
+    gap: 4vw;
     padding: 5rem 2rem 5rem 2rem;
 }
 .art-imgs{
@@ -239,9 +239,9 @@ header{
 }
 .art-container .art-box{
     position: relative;
-    border-radius: 2rem;
+    border-radius: 2vw;
     box-shadow: 0 0 1rem var(--main-color);
-    overflow: hidden;
+    overflow:hidden;
     display: flex;
 }
 .art-box .art-info{
@@ -256,7 +256,7 @@ header{
     align-items: center;
      flex-direction: column; 
      text-align: center;
-     padding: 0 4rem; 
+     padding: 0 4vw; 
      transform: translateY(100%);
      transition: 0.5s ease;
 }
@@ -265,7 +265,7 @@ header{
 }
 .art-info h4{
     font-size: 2vw;
-    padding-bottom: 2rem;
+    padding-bottom: 2vw;
 }
 .art-info a{
     display: inline-flex;
