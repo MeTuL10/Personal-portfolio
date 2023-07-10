@@ -70,7 +70,7 @@ header{
     font-size: 4rem;
 }
 .about{
-    padding:10rem 9%;
+    padding:10rem 6vw;
     font-size: 1.5rem;
     text-align: justify;
 }
@@ -142,7 +142,7 @@ header{
 
 /* -------------------------PROJECTS---------------------------- */
 .Projects{
-    padding:10rem 9%;
+    padding:8rem 6vw;
     font-size: 1.5rem;
     text-align: justify;
 }
@@ -151,7 +151,7 @@ header{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 5vw;
-    padding: 5vw 2vw 5vw 2vw;
+    padding: 5vw 2vw;
 }
 .project-imgs{
     width: 100%;
@@ -182,7 +182,7 @@ header{
     flex-direction: column; 
     text-align: justify;
     padding: 0 4vw; 
-    transform: translateY(120%);
+    transform: translateY(-120%);
     transition: 0.5s ease;
 }
 .project-box:hover .project-info{
@@ -217,7 +217,7 @@ header{
 
 /* ----------------------------------------ARTWORKS-------------------------------------------------------------------- */
 .Artworks{
-    padding:10vw 9%;
+    padding:8rem 6vw;
     font-size: 1.5rem;
     text-align: justify;
 }
@@ -258,10 +258,13 @@ header{
      text-align: center;
      padding: 0 4vw; 
      transform:scaleX(0);
+     /* visibility:0%; */   
      transition: 0.5s ease;
 }
 .art-box:hover .art-info{
     transform: scaleX(100%);
+    /* visibility:0%; */
+    /* content-visibility: 100%; */
 }
 .art-info h4{
     font-size: 2vw;
