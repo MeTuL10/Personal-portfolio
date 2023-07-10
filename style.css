@@ -36,7 +36,7 @@ header{
     left:0;
     width:100%;
     padding: 1.5rem 5% 3rem 5%;
-    background-image: linear-gradient(180deg, var(--second-bg-color), var(--bg-color) );
+    background-image: linear-gradient(180deg, var(--second-bg-color), rgb(29, 15, 18,0) );
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,7 +175,7 @@ header{
     left:0;
     width:100%;
     height:100%;
-    background: linear-gradient(rgba(0,0,0,.1),var(--main-color));
+    background: radial-gradient(rgba(0,0,0,.1),var(--main-color));
     display: flex;
     justify-content:center; 
     align-items: center;
@@ -250,18 +250,18 @@ header{
     left:0;
     width:100%;
     height:100%;
-    background: linear-gradient(rgba(0,0,0,.1),var(--main-color));
+    background: radial-gradient(rgba(0,0,0,.1),var(--main-color));
     display: flex;
     justify-content: center;
     align-items: center;
      flex-direction: column; 
      text-align: center;
      padding: 0 4vw; 
-     transform: translateY(100%);
+     transform:scaleX(0);
      transition: 0.5s ease;
 }
 .art-box:hover .art-info{
-    transform: translateY(0);
+    transform: scaleX(100%);
 }
 .art-info h4{
     font-size: 2vw;
