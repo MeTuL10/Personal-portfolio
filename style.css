@@ -6,7 +6,8 @@
     border: none;
     outline: none;
     scroll-behavior:smooth;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 :root{
     --bg-color: #1d1818;
@@ -133,7 +134,7 @@ header{
     background: transparent;
     padding: 1rem 1rem ;
     border-radius: 4rem;
-    box-shadow: 0 0 0.5rem var(--main-color);
+    border: .2rem solid var(--main-color);
 }
 .resume:hover{
     background: var(--main-color);
