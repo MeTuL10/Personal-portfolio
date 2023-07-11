@@ -204,7 +204,7 @@ header{
     transition: 0.5s;
 }
 .project-imgs:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .project-container .project-box{
     position: relative;
@@ -219,7 +219,7 @@ header{
     left:0;
     width:100%;
     height:100%;
-    background: radial-gradient(rgba(0,0,0,.3),rgba(83, 18, 18));
+    background: radial-gradient(rgba(0,0,0,.5),rgba(83, 18, 18));
     display: flex;
     justify-content:center; 
     align-items: center;
@@ -326,7 +326,7 @@ header{
     left:0;
     width:100%;
     height:100%;
-    background: radial-gradient(rgba(0,0,0,.1),var(--main-color));
+    background: rgba(0,0,0,.3);
     display: flex;
     justify-content: center;
     align-items: center;
