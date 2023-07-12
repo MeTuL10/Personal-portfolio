@@ -150,7 +150,7 @@ header{
 .skills{
     padding:2rem 0;
     text-align: center;
-
+    margin-top: 1rem;
 }
 .skills h1{
     font-size:3rem;
@@ -160,16 +160,21 @@ header{
     border-radius: 4rem;
     padding: 0.5rem 1rem;
     display:inline-block;
+    margin-bottom: 1rem;
 }
-
 .rows{
     display: table;
   clear: both;
 }
 .column {
     float:left;
-    width: 28.8vw;
+    width: 27.2vw;
     text-align: center;
+    background-color: #1f0148;
+    border-radius: 2rem;
+    margin:2vw 0.5vw;
+    box-shadow: 0 0 1rem var(--main-color);
+    /* border: 1vw; */
   }
 @media screen and (max-width: 800px) {
 .column {
@@ -177,17 +182,19 @@ header{
 }
 }
 .skills h2{
-    font-size: 2rem;
-    color: var(--main-color);
+    font-size: 2.3rem;
+    color: var(--text-color);
     padding: 1rem 0.5rem;
+    /* text-shadow: 0 0 3px var(--main-color); */
 }
 .skills p{
-    padding: 2px 0.5rem;
+    padding: 4px 0.5rem;
     transition: 0.5s;
 }
 .skills p:hover{
     color: var(--main-color);
     display: inline-block;
+    scale:1.2;
 }
 /* -------------------------PROJECTS---------------------------- */
 .Projects{
