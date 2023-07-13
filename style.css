@@ -15,7 +15,7 @@
     --second-bg-color:#462a3c;
     --main-color: rgb(202, 71, 97);
     --box-color: rgb(83, 18, 18); */
-    --bg-color: #180523;
+    --bg-color: #0d031d;
     --second-bg-color:#150050;
     --main-color: #6804ba;
     --box-color: #410164; 
@@ -237,7 +237,7 @@ header{
     left:0;
     width:100%;
     height:100%;
-    background: radial-gradient(rgba(0,0,0,.5),var(--box-color));
+    background: rgba(0,0,0,.7);
     display: flex;
     justify-content:center; 
     align-items: center;
